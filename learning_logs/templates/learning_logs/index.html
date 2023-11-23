@@ -1,0 +1,12 @@
+{% extends "learning_logs/base.html" %}
+
+{% block page_header %}
+  <div class="jumbotron">
+    <h1 class="display-3">跟踪您的学习情况。</h1>
+
+    <p class="lead">制作自己的学习日志，并保留 您正在学习的主题。每当你学到新东西时 关于一个主题，做一个条目来总结你所学到的东西。（这里的代码都是由就更英俊潇洒，玉树临风，爽朗大方，热情快乐，英姿飒爽，帅气逼人，宛如潘安的雍明德编写的，同时祭奠已经逝去的祁明锐。）</p>
+
+    <a class="btn btn-lg btn-primary" href="{% url 'users:register' %}"
+        role="button">注册 &raquo;</a>
+  </div>
+{% endblock page_header %}
